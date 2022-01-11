@@ -1248,8 +1248,8 @@ Opaque                                         Translucide                      
     </text>
     <image name="logo">
       <!-- try png -->
-      <path>./_arte/logos/${system.theme}.png</path>
-      <path>./_arte/logos/${system.theme}.svg</path>
+      <path>./_arte/imgs/arcade/${system.theme}.png</path>
+      <path>./_arte/imgs/arcade/${system.theme}.svg</path>
       <!-- SI EXISTE X EJ megadrive2.svg ,USA ESTA VERSION -->
       <!-- <path>./_arte/logos/${system.theme}2.svg</path> -->
       <!--<pos>0.266 0.074</pos><maxSize>0.460 0.126</maxSize>-->
@@ -1454,8 +1454,8 @@ Opaque                                         Translucide                      
     </text>
     <image name="logo">
       <!-- try png -->
-      <path>./_arte/logos/${system.theme}.png</path>
-      <path>./_arte/logos/${system.theme}.svg</path>
+      <path>./_arte/imgs/arcade/${system.theme}.png</path>
+      <path>./_arte/imgs/arcade/${system.theme}.svg</path>
       <!-- SI EXISTE X EJ megadrive2.svg ,USA ESTA VERSION -->
       <!-- <path>./_arte/logos/${system.theme}2.svg</path> -->
       <!--<pos>0.266 0.074</pos><maxSize>0.460 0.126</maxSize>-->
@@ -1755,8 +1755,8 @@ Opaque                                         Translucide                      
 	<video name="md_video">
 	  <default>./_arte/bgv-sistemas/splash-batocera29-ps-original.mp4</default>
       <pos>0.386 0.397</pos>
-	  <size>0.35 0.452</size>
-      <maxSize>0.35 0.452</maxSize>
+	  <size>0.48 0.452</size>
+      <!-- <maxSize>0.35 0.452</maxSize> -->
       <origin>0 0</origin>
       <delay>0</delay>
 	  <effect>none</effect>
@@ -1773,8 +1773,8 @@ Opaque                                         Translucide                      
     </image>
 
     <image name="cabinet" extra="true">
-      <size>0.588 0.89</size>
-	  <pos>0.307 0.15</pos>
+      <size>0.828 0.89</size>
+	  <pos>0.295 0.15</pos>
       <origin>0 0</origin>
 	  <path>./_arte/imgs/cabinet.png</path>
 	  <path>./_arte/imgs/cabinets/${system.theme}.png</path>
@@ -1790,17 +1790,17 @@ Opaque                                         Translucide                      
 
     <image name="bgimage-marque-cabinet" extra="true">
       <path>./_arte/10151.png</path>
-	  <pos>0.362 0.154</pos>
+	  <pos>0.372 0.154</pos>
       <origin>0 0</origin>
-	  <size>0.388 0.245</size>
+	  <size>0.538 0.245</size>
 	  <zIndex>98</zIndex>
     </image>
 
     <image name="bg2image-marque-cabinet" extra="true">
       <path>./_arte/Neon.png</path>
-	  <pos>0.368 0.144</pos>
+	  <pos>0.348 0.124</pos>
       <origin>0 0</origin>
-	  <size>0.388 0.245</size>
+	  <size>0.598 0.245</size>
 	  <color>525a5e</color>
 	  <storyboard>
           <animation property="opacity" from="0.9" to="0.4" duration="666" mode="bump" repeat="forever" autoReverse="false"/>
@@ -1809,9 +1809,8 @@ Opaque                                         Translucide                      
     </image>
 	
     <image name="md_marquee">
-	<pos>0.567 0.248</pos>
-	<size>0.245 0.12</size>
-	<maxSize>0.245 0.2</maxSize>
+	<pos>0.65 0.242</pos>
+	<size>0.455 0.127</size>
 	  <storyboard>
           <animation property="scale" from="0.7" to="1.05" duration="3600" begin="1800" mode="bump" repeat="forever" autoReverse="true"/>
         </storyboard>
@@ -1819,10 +1818,9 @@ Opaque                                         Translucide                      
     </image>
    <image name="md_thumbnail">
 	<origin>0 0</origin>
-	<pos>0.765 0.16</pos>
+	<pos>2 2</pos>
 	<!-- <default>./_arte/imgs/img_default.png</default> -->
 	<size>0.23 0</size>
-	<maxSize>0.255 0.35</maxSize>
 <!-- 	<reflexion>0.055</reflexion>
 	<reflexionOnFrame>0</reflexionOnFrame> -->
 	<zIndex>95</zIndex>
@@ -1845,7 +1843,7 @@ Opaque                                         Translucide                      
       <fontSize>0.031</fontSize>
     </text>	
  <image name="mabe_players" extra="true">
-	<pos>0.275 0.715</pos>
+	<pos>2 2</pos>
 	<path>${players_ruta}${system.theme}.png</path>
 	<size>0.12 0.23</size>
 	<maxSize>0.125 0.231</maxSize>
@@ -1887,7 +1885,7 @@ Opaque                                         Translucide                      
     <pos>0.3 0</pos>
     <origin>0 0</origin>
     <size>0.7 1</size>
-	<colorEnd>343e40</colorEnd>
+	<colorEnd>343e40cc</colorEnd>
 	<gradientType>vertical</gradientType>
     <zIndex>6</zIndex>
     <path>./_arte/capa-color.png</path>
@@ -1900,7 +1898,7 @@ Opaque                                         Translucide                      
       <fontPath>./_arte/fuentes/BigSquareDots.ttf</fontPath>
       <forceUppercase>1</forceUppercase>
       <pos>0.001 0.23</pos>
-      <size>0.3 0.665</size>
+      <size>0.310 0.665</size>
       <alignment>left</alignment>
       <horizontalMargin>0.03</horizontalMargin>
       <fontSize>0.035</fontSize>
@@ -1920,8 +1918,8 @@ Opaque                                         Translucide                      
     </text>
     <image name="logo">
       <!-- try png -->
-      <path>./_arte/imgs/basicos/${system.theme}.png</path>
-	  <path>./_arte/imgs/basicos/${system.theme}.svg</path>
+      <path>./_arte/imgs/arcade/${system.theme}.png</path>
+	  <path>./_arte/imgs/arcade/${system.theme}.svg</path>
       <!-- SI EXISTE X EJ megadrive2.svg ,USA ESTA VERSION -->
       <!-- <path>./_arte/logos/${system.theme}2.svg</path> -->
       <!--<pos>0.266 0.074</pos><maxSize>0.460 0.126</maxSize>-->
@@ -1932,7 +1930,7 @@ Opaque                                         Translucide                      
     </image>
     <text name="md_developer">
       <color>${colorDeveloper}</color>
-      <pos>0.085 0.92</pos>
+      <pos>2 2</pos>
       <size>0.18 0.07</size>
       <alignment>left</alignment>
       <fontSize>0.017</fontSize>
@@ -1941,15 +1939,15 @@ Opaque                                         Translucide                      
 	  <forceUppercase>1</forceUppercase>
     </text>    
     <rating name="md_rating">
-      <pos>0.808 0.095</pos>
-      <size>0.058 0.058</size>
+      <pos>0.48 0.045</pos>
+      <size>0.088 0.088</size>
       <color>FFFF00</color>
       <unfilledColor>808080</unfilledColor>
 	  <filledPath>./_arte/imgs/fav.png</filledPath>
 	  <unfilledPath>./_arte/imgs/nofav.png</unfilledPath>
     </rating>
     <text name="md_lbl_players">
-      <pos>0.775 0.81</pos>
+      <pos>2 2</pos>
 	  <color>ffffff</color>
 	  <glowColor>000000df</glowColor>
       <glowSize>1</glowSize>
@@ -1959,14 +1957,14 @@ Opaque                                         Translucide                      
       <color>000000</color>
 	  <glowColor>${glowColor}</glowColor>
       <glowSize>1</glowSize>
-      <pos>0.882 0.84</pos>
+      <pos>2 2</pos>
       <size>0.2 0</size>
     </text>
     <text name="md_lbl_releasedate">
       <color>ffffff</color>
 	  <glowColor>000000df</glowColor>
       <glowSize>1</glowSize>
-      <pos>0.76 0.755</pos>
+      <pos>2 2</pos>
       <size>0.2 0</size>
 	  <zIndex>197</zIndex>
     </text>
@@ -1974,7 +1972,7 @@ Opaque                                         Translucide                      
     <color>000000</color>
 	  <glowColor>ffffffdf</glowColor>
       <glowSize>1</glowSize>
-      <pos>0.885 0.755</pos>
+      <pos>2 2</pos>
       <size>0 0.033</size>
     </datetime>	
   </customView>
